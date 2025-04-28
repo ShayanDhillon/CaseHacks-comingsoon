@@ -1,3 +1,4 @@
+
 import instagramLogo from '/instagram-inverted.png'
 import linkedinLogo from '/linkedin-inverted.png'
 import linktreeLogo from '/linktree-inverted.png'
@@ -18,9 +19,9 @@ function App() {
 
   return (
     <>
-      <button onClick={rotateAll} className="funnyButton">Click Me!</button>
+      <button onClick={rotateAll} className="funnyButton">click me</button>
       <div className='body'>
-        <div className='headers'>
+        <div className='left-side'>
             {Array.from({ length: 2 }).map((_, i) => (
               <h1 className="blurred">coming soon</h1>
             ))}
