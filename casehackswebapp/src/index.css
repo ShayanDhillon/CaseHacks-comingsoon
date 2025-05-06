@@ -113,14 +113,14 @@ h1 {
 
 .casehacks {
   display: flex;
-  height: 15vh;
   height: auto;
   width: 30vw;
   margin-top: 15vh;
+  visibility: hidden;
 }
 
 .socials img {
-  height: 3.75vw;
+  height: auto;
   width: 3.25vw;
 }
 
@@ -185,7 +185,7 @@ h1 {
   }
 
   .socials img {
-    height: auto;
-    width: 15vw;
+    height: 5.5vh;
+    width: auto;
   }
 }
